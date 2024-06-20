@@ -11,10 +11,10 @@ const Hero = () => {
           website
         </span>
       </h1>
-      <p className="text-center text-xl text-zinc-400 font-normal">
-        Monitor your API and website globally, identify performance <br />{" "}
-        issues, downtime and receive alerts before your users are <br />{" "}
-        affected.
+      <p className="text-center text-xl leading-9 text-zinc-400 font-normal">
+        Crafting stunning, responsive websites that elevate your brand <br />{" "}
+        and engage your audience. Partner with us to <br /> bring your vision
+        into reality.
       </p>
       <div className="flex items-center justify-center gap-4 text-zinc-900">
         <Link href="#offers" className="">

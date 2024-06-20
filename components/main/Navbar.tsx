@@ -12,18 +12,15 @@ const Navbar = () => {
         PrimeCraft
       </Link>
       <nav className="py-3 px-5 border border-zinc-500 rounded-full">
-        <ul className="flex items-center gap-5">
+        <ul className="flex items-center gap-10">
           <li className="transition hover:opacity-75 font-medium text-md">
             <Link href={"#about"}>About</Link>
           </li>
           <li className="transition hover:opacity-75 font-medium text-md">
-            <Link href={"#about"}>Our Work</Link>
+            <Link href={"#work"}>Our Work</Link>
           </li>
           <li className="transition hover:opacity-75 font-medium text-md">
-            <Link href={"#about"}>Testimonials</Link>
-          </li>
-          <li className="transition hover:opacity-75 font-medium text-md">
-            <Link href={"#about"}>Offers</Link>
+            <Link href={"#offers"}>Offers</Link>
           </li>
         </ul>
       </nav>
