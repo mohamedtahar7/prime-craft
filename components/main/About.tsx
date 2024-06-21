@@ -5,9 +5,9 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 const About = () => {
   return (
-    <section id="about" className="py-[7%]">
-      <div className="flex items-center gap-12">
-        <div className="flex flex-col gap-5">
+    <section id="about" className="border-b border-zinc-700 py-[7%]">
+      <div className="flex lg:flex-row flex-col items-center gap-12">
+        <div className="flex text-center lg:text-start flex-col gap-5">
           <h1 className="text-lg font-semibold">About us</h1>
           <p className="text-lg leading-[2rem] text-zinc-300 font-normal">
             Welcome to PrimeCraft, where creativity and technology converge to

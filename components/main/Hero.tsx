@@ -4,7 +4,10 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col gap-5 py-[7%]" id="hero">
+    <section
+      className="flex border-b border-zinc-700 flex-col gap-5 py-[7%]"
+      id="hero"
+    >
       <h1 className="text-center text-6xl leading-[5rem] font-medium">
         A better way to build your <br />{" "}
         <span className="bg-gradient-to-b from-zinc-600 to-zinc-100 text-transparent bg-clip-text">
